@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Search</title>
+  <link type="text/css" rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+	<div class="container">
+    <a href=http://youtube.com><img class= "logo" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/YouTube_Logo.svg/500px-YouTube_Logo.svg.png"></a>
+    <form id="search-term">
+  		<input type="text" id="query" class="text" autocomplete="off" placeholder="keyword(s)" required/>
+      <input type="submit" id="guessButton" class="button" name="submit" value="Search"/>
+  	</form>
+  </div>
+	<div id="search-results">
+  <h1>Search Results</h1>
+  </div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="search.js"></script>
+</body>
+</html>
