@@ -13,7 +13,7 @@ function showResults(results){
   var html = "";
   // var type = "";
   $.each(results, function(index,value){
-    html += "<a href='http://www.youtube.com/watch?v=_'" + value.id.videoId + ">" + "<img src=" + value.snippet.thumbnails.default.url + ">" + "</a>";
+    html += "<a href='http://www.youtube.com/watch?v=" + value.id.videoId + "'>" + "<img src=" + value.snippet.thumbnails.default.url + ">" + "</a>";
     html += "<p>" + value.snippet.title + "</p>";
     console.log(value.id.kind);
   });
